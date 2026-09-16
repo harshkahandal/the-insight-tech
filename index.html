@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE INSIGHT TECH | Technology Solutions for Business Growth</title>
+<meta name="description" content="THE INSIGHT TECH helps businesses grow with Power BI, Business Intelligence, Software Development, Data Analytics, AI Automation, Websites and Digital Solutions.">
+<link rel="canonical" href="https://www.theinsighttech.com/index.html">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#080808">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="THE INSIGHT TECH">
+<meta property="og:title" content="THE INSIGHT TECH | Technology Solutions for Business Growth">
+<meta property="og:description" content="THE INSIGHT TECH helps businesses grow with Power BI, Business Intelligence, Software Development, Data Analytics, AI Automation, Websites and Digital Solutions.">
+<meta property="og:url" content="https://www.theinsighttech.com/index.html">
+<meta property="og:image" content="https://www.theinsighttech.com/assets/logo-lockup.jpg">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="THE INSIGHT TECH | Technology Solutions for Business Growth">
+<meta name="twitter:description" content="THE INSIGHT TECH helps businesses grow with Power BI, Business Intelligence, Software Development, Data Analytics, AI Automation, Websites and Digital Solutions.">
+<meta name="twitter:image" content="https://www.theinsighttech.com/assets/logo-lockup.jpg">
+
+<link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          bg:'#080808', bg2:'#0D0D0D', gold:'#C9A44C', goldlight:'#E2C477',
+          offwhite:'#F5F3EE', gray2:'#A5A5A0', card:'#151515', card2:'#1B1B1B', border2:'#2B2B2B'
+        },
+        fontFamily: {
+          heading: ['Plus Jakarta Sans','system-ui','sans-serif'],
+          sans: ['Inter','system-ui','sans-serif']
+        }
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "THE INSIGHT TECH",
+  "url": "https://www.theinsighttech.com",
+  "logo": "https://www.theinsighttech.com/assets/logo-lockup.jpg",
+  "description": "Technology solutions company helping businesses grow through Power BI, Business Intelligence, Software Development, Data Analytics, AI Automation, Websites and Digital Marketing.",
+  "sameAs": [
+    "https://instagram.com/theinsighttech",
+    "https://linkedin.com/company/theinsighttech"
+  ]
+}
+</script>
+</head>
+
+<body class="bg-bg text-offwhite font-sans antialiased">
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header id="site-nav">
+  <div class="wrap flex items-center justify-between py-4">
+    <a href="index.html" class="flex items-center gap-3" aria-label="THE INSIGHT TECH — home">
+      <img src="assets/logo-icon.jpg" alt="THE INSIGHT TECH logo" width="44" height="44" style="height:44px;width:44px;object-fit:contain;">
+      <span class="font-heading font-bold text-[15px] tracking-wide text-offwhite hidden sm:block leading-tight">
+        THE INSIGHT <span class="text-gold">TECH</span>
+      </span>
+    </a>
+
+    <nav class="hidden lg:flex items-center gap-9" aria-label="Primary">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="solutions.html" class="nav-link">Solutions</a>
+      <a href="industries.html" class="nav-link">Industries</a>
+      <a href="portfolio.html" class="nav-link">Portfolio</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="flex items-center gap-3 sm:gap-5">
+      <a href="contact.html" class="btn btn-gold hidden sm:inline-flex">Let's Talk</a>
+      <button id="menu-toggle" class="lg:hidden text-offwhite p-1" aria-label="Open menu">
+        <i data-lucide="menu" class="w-7 h-7"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div id="mobile-menu" class="lg:hidden">
+  <div class="wrap flex items-center justify-between py-4">
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="assets/logo-icon.jpg" alt="THE INSIGHT TECH logo" width="40" height="40" style="height:40px;width:40px;object-fit:contain;">
+      <span class="font-heading font-bold text-sm text-offwhite">THE INSIGHT TECH</span>
+    </a>
+    <button id="menu-close" aria-label="Close menu" class="text-offwhite p-1">
+      <i data-lucide="x" class="w-7 h-7"></i>
+    </button>
+  </div>
+  <nav class="wrap flex flex-col mt-6" aria-label="Mobile primary">
+    <a href="index.html" class="text-2xl font-heading font-semibold py-4 border-b border-border2 text-offwhite">Home</a>
+    <a href="about.html" class="text-2xl font-heading font-semibold py-4 border-b border-border2 text-offwhite">About</a>
+    <a href="services.html" class="text-2xl font-heading font-semibold py-4 border-b border-border2 text-offwhite">Services</a>
+    <a href="solutions.html" class="text-2xl font-heading font-semibold py-4 border-b border-border2 text-offwhite">Solutions</a>
+    <a href="industries.html" class="text-2xl font-heading font-semibold py-4 border-b border-border2 text-offwhite">Industries</a>
+    <a href="portfolio.html" class="text-2xl font-heading font-semibold py-4 border-b border-border2 text-offwhite">Portfolio</a>
+    <a href="contact.html" class="text-2xl font-heading font-semibold py-4 border-b border-border2 text-offwhite">Contact</a>
+  </nav>
+  <div class="wrap mt-8">
+    <a href="contact.html" class="btn btn-gold w-full justify-center">Let's Talk</a>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============================= HERO ============================= -->
+<section class="relative overflow-hidden">
+  <div class="absolute inset-0 data-grid"></div>
+  <div class="wrap relative pt-16 pb-20 lg:pt-24 lg:pb-28 grid lg:grid-cols-[1.1fr_0.9fr] gap-14 items-center">
+    <div>
+      <p class="text-xs tracking-[0.2em] text-gold font-semibold mb-6">TECHNOLOGY &nbsp;•&nbsp; DATA &nbsp;•&nbsp; INTELLIGENCE &nbsp;•&nbsp; GROWTH</p>
+      <h1 class="font-heading font-extrabold text-[38px] leading-[1.12] sm:text-5xl lg:text-[56px] lg:leading-[1.1] text-offwhite max-w-xl">
+        Technology That Moves Your Business Forward.
+      </h1>
+      <p class="mt-6 text-[17px] leading-relaxed text-gray2 max-w-lg">
+        We build technology, data and digital solutions that help businesses work smarter, make better decisions and grow faster.
+      </p>
+      <div class="mt-9 flex flex-wrap items-center gap-4">
+        <a href="contact.html" class="btn btn-gold">Let's Talk</a>
+        <a href="solutions.html" class="btn btn-outline">Explore Solutions</a>
+      </div>
+    </div>
+
+    <!-- Hero visual: abstract intelligence / growth graphic -->
+    <div class="relative mx-auto w-full max-w-md" aria-hidden="true">
+      <svg viewBox="0 0 420 380" class="w-full h-auto">
+        <circle cx="210" cy="190" r="150" fill="none" stroke="#2B2B2B" stroke-width="1"/>
+        <!-- connecting lines -->
+        <line x1="90" y1="120" x2="210" y2="190" stroke="#2B2B2B" stroke-width="1"/>
+        <line x1="330" y1="120" x2="210" y2="190" stroke="#2B2B2B" stroke-width="1"/>
+        <line x1="90" y1="260" x2="210" y2="190" stroke="#2B2B2B" stroke-width="1"/>
+        <line x1="330" y1="260" x2="210" y2="190" stroke="#2B2B2B" stroke-width="1"/>
+        <!-- growth bars -->
+        <g transform="translate(150,215)">
+          <rect x="0" y="40" width="14" height="30" fill="#3a2f16"/>
+          <rect x="22" y="25" width="14" height="45" fill="#8a712f"/>
+          <rect x="44" y="10" width="14" height="60" fill="#C9A44C"/>
+          <rect x="66" y="-8" width="14" height="78" fill="#E2C477"/>
+          <path class="grow-line" d="M2 70 L28 50 L50 32 L73 -4" fill="none" stroke="#E2C477" stroke-width="2.5" stroke-linecap="round"/>
+        </g>
+        <!-- data nodes -->
+        <circle class="node" cx="90" cy="120" r="6" fill="#C9A44C"/>
+        <circle class="node d1" cx="330" cy="120" r="6" fill="#C9A44C"/>
+        <circle class="node d2" cx="90" cy="260" r="6" fill="#C9A44C"/>
+        <circle class="node d3" cx="330" cy="260" r="6" fill="#C9A44C"/>
+        <circle cx="210" cy="190" r="10" fill="#E2C477"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Trust / positioning strip -->
+  <div class="border-y border-border2">
+    <div class="wrap py-5 flex flex-wrap items-center justify-between gap-y-3 gap-x-8 text-[12.5px] tracking-[0.14em] text-gray2 font-semibold">
+      <span>POWER BI</span>
+      <span class="text-border2">/</span>
+      <span>SOFTWARE</span>
+      <span class="text-border2">/</span>
+      <span>DATA ANALYTICS</span>
+      <span class="text-border2">/</span>
+      <span>AI AUTOMATION</span>
+      <span class="text-border2">/</span>
+      <span>WEBSITES</span>
+      <span class="text-border2">/</span>
+      <span>DIGITAL GROWTH</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= WHAT WE DO ============================= -->
+<section class="section reveal">
+  <div class="wrap">
+    <div class="max-w-2xl">
+      <h2 class="font-heading font-bold text-3xl sm:text-4xl text-offwhite">Technology Built Around Your Business.</h2>
+      <p class="mt-5 text-gray2 leading-relaxed">Every business has different challenges. We combine technology, data and digital capabilities to build solutions around the way your business actually works.</p>
+    </div>
+
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="card p-7">
+        <i data-lucide="database" class="w-6 h-6 text-gold"></i>
+        <h3 class="font-heading font-semibold text-lg text-offwhite mt-5">Data &amp; Intelligence</h3>
+        <p class="text-sm text-gray2 mt-3 leading-relaxed">Dashboards and reporting that turn raw data into clear business decisions.</p>
+      </div>
+      <div class="card p-7">
+        <i data-lucide="code-2" class="w-6 h-6 text-gold"></i>
+        <h3 class="font-heading font-semibold text-lg text-offwhite mt-5">Software &amp; Technology</h3>
+        <p class="text-sm text-gray2 mt-3 leading-relaxed">Custom software, applications and websites built around your processes.</p>
+      </div>
+      <div class="card p-7">
+        <i data-lucide="cpu" class="w-6 h-6 text-gold"></i>
+        <h3 class="font-heading font-semibold text-lg text-offwhite mt-5">AI &amp; Automation</h3>
+        <p class="text-sm text-gray2 mt-3 leading-relaxed">Practical automation that removes repetitive work and speeds things up.</p>
+      </div>
+      <div class="card p-7">
+        <i data-lucide="trending-up" class="w-6 h-6 text-gold"></i>
+        <h3 class="font-heading font-semibold text-lg text-offwhite mt-5">Digital Growth</h3>
+        <p class="text-sm text-gray2 mt-3 leading-relaxed">Digital presence and marketing that support the growth technology enables.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="hairline wrap">
+
+<!-- ============================= SERVICES ============================= -->
+<section class="section reveal" id="services-preview">
+  <div class="wrap">
+    <div class="max-w-2xl">
+      <h2 class="font-heading font-bold text-3xl sm:text-4xl text-offwhite">From Business Challenges to Technology Solutions.</h2>
+    </div>
+
+    <div class="mt-14 grid md:grid-cols-2 gap-5">
+      <!-- 01 Power BI -->
+      <div class="card p-8 md:col-span-2">
+        <div class="flex flex-col md:flex-row md:items-center gap-8">
+          <div class="md:w-1/3">
+            <i data-lucide="layout-dashboard" class="w-7 h-7 text-gold"></i>
+            <h3 class="font-heading font-semibold text-xl text-offwhite mt-4">Power BI Development &amp; Business Intelligence</h3>
+            <p class="text-sm text-gray2 mt-3 leading-relaxed">Turn complex business data into clear, interactive and decision-ready insights.</p>
+            <a href="services.html#power-bi" class="btn-text mt-5">Explore Service <i data-lucide="arrow-right"></i></a>
+          </div>
+          <div class="md:w-2/3 grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-2 text-sm text-gray2 md:border-l md:border-border2 md:pl-8">
+            <span>Power BI Dashboards</span>
+            <span>KPI &amp; Performance Reporting</span>
+            <span>DAX &amp; Advanced Measures</span>
+            <span>Data Modeling</span>
+            <span>Power Query</span>
+            <span>Management Intelligence</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 02 Software -->
+      <div class="card p-8">
+        <i data-lucide="code-2" class="w-7 h-7 text-gold"></i>
+        <h3 class="font-heading font-semibold text-xl text-offwhite mt-4">Software &amp; Application Development</h3>
+        <p class="text-sm text-gray2 mt-3 leading-relaxed">Build custom software and applications around your business processes, requirements and goals.</p>
+        <ul class="text-sm text-gray2 mt-4 space-y-1.5">
+          <li>Business Applications</li><li>Web Applications</li><li>Mobile Applications</li>
+          <li>Internal Systems</li><li>Portals</li><li>Database-driven Solutions</li>
+        </ul>
+        <a href="services.html#software" class="btn-text mt-5">Explore Service <i data-lucide="arrow-right"></i></a>
+      </div>
+
+      <!-- 03 Websites -->
+      <div class="card p-8">
+        <i data-lucide="globe" class="w-7 h-7 text-gold"></i>
+        <h3 class="font-heading font-semibold text-xl text-offwhite mt-4">Website Development</h3>
+        <p class="text-sm text-gray2 mt-3 leading-relaxed">Build a modern digital presence designed around your brand, users and business objectives.</p>
+        <ul class="text-sm text-gray2 mt-4 space-y-1.5">
+          <li>Corporate Websites</li><li>Business Websites</li><li>E-commerce</li>
+          <li>Landing Pages</li><li>Responsive Design</li><li>Performance Optimization</li>
+        </ul>
+        <a href="services.html#websites" class="btn-text mt-5">Explore Service <i data-lucide="arrow-right"></i></a>
+      </div>
+
+      <!-- 04 Data Analytics -->
+      <div class="card p-8">
+        <i data-lucide="bar-chart-3" class="w-7 h-7 text-gold"></i>
+        <h3 class="font-heading font-semibold text-xl text-offwhite mt-4">Data Analytics &amp; MIS</h3>
+        <p class="text-sm text-gray2 mt-3 leading-relaxed">Transform raw business data into accurate reporting, meaningful analysis and actionable insights.</p>
+        <ul class="text-sm text-gray2 mt-4 space-y-1.5">
+          <li>MIS Reporting</li><li>Data Cleaning</li><li>Data Analysis</li>
+          <li>Automated Reports</li><li>KPI Analysis</li><li>Management Reporting</li>
+        </ul>
+        <a href="services.html#data-analytics" class="btn-text mt-5">Explore Service <i data-lucide="arrow-right"></i></a>
+      </div>
+
+      <!-- 05 AI -->
+      <div class="card p-8">
+        <i data-lucide="brain" class="w-7 h-7 text-gold"></i>
+        <h3 class="font-heading font-semibold text-xl text-offwhite mt-4">AI Solutions &amp; AI Automation</h3>
+        <p class="text-sm text-gray2 mt-3 leading-relaxed">Use AI and automation to reduce repetitive work, improve efficiency and create smarter business workflows.</p>
+        <ul class="text-sm text-gray2 mt-4 space-y-1.5">
+          <li>AI Assistants</li><li>Chatbots</li><li>Lead Qualification</li>
+          <li>Automated Follow-ups</li><li>AI Workflows</li><li>Business Automation</li>
+        </ul>
+        <a href="services.html#ai-automation" class="btn-text mt-5">Explore Service <i data-lucide="arrow-right"></i></a>
+      </div>
+
+      <!-- 06 Digital Marketing (deliberately last / quieter) -->
+      <div class="card p-8 md:col-span-2 bg-transparent">
+        <div class="flex flex-col md:flex-row md:items-center gap-6 md:gap-10">
+          <div class="md:w-1/3">
+            <i data-lucide="megaphone" class="w-6 h-6 text-gray2"></i>
+            <h3 class="font-heading font-semibold text-lg text-offwhite mt-4">Digital Marketing &amp; Online Growth</h3>
+            <p class="text-sm text-gray2 mt-3 leading-relaxed">Connect digital marketing with business objectives to build visibility, generate enquiries and support growth.</p>
+          </div>
+          <div class="md:w-2/3 flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray2 md:border-l md:border-border2 md:pl-8">
+            <span>Social Media</span><span>Meta Ads</span><span>Google Ads</span>
+            <span>Lead Generation</span><span>Content Strategy</span><span>Google Business</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="hairline wrap">
+
+<!-- ============================= HOW WE WORK ============================= -->
+<section class="section reveal">
+  <div class="wrap">
+    <h2 class="font-heading font-bold text-3xl sm:text-4xl text-offwhite max-w-xl">From Problem to Solution.</h2>
+
+    <div class="mt-14 grid lg:grid-cols-5 gap-8 lg:gap-6">
+      <div class="lg:border-l lg:border-border2 lg:pl-6">
+        <span class="idx">01</span>
+        <h3 class="font-heading font-semibold text-base text-offwhite mt-4">Understand</h3>
+        <p class="text-sm text-gray2 mt-2 leading-relaxed">Understand the business, goals and challenges.</p>
+      </div>
+      <div class="lg:border-l lg:border-border2 lg:pl-6">
+        <span class="idx">02</span>
+        <h3 class="font-heading font-semibold text-base text-offwhite mt-4">Analyze</h3>
+        <p class="text-sm text-gray2 mt-2 leading-relaxed">Study existing processes, data and opportunities.</p>
+      </div>
+      <div class="lg:border-l lg:border-border2 lg:pl-6">
+        <span class="idx">03</span>
+        <h3 class="font-heading font-semibold text-base text-offwhite mt-4">Design</h3>
+        <p class="text-sm text-gray2 mt-2 leading-relaxed">Design the right technology solution.</p>
+      </div>
+      <div class="lg:border-l lg:border-border2 lg:pl-6">
+        <span class="idx">04</span>
+        <h3 class="font-heading font-semibold text-base text-offwhite mt-4">Build</h3>
+        <p class="text-sm text-gray2 mt-2 leading-relaxed">Develop, integrate and implement.</p>
+      </div>
+      <div class="lg:border-l lg:border-border2 lg:pl-6">
+        <span class="idx">05</span>
+        <h3 class="font-heading font-semibold text-base text-offwhite mt-4">Grow</h3>
+        <p class="text-sm text-gray2 mt-2 leading-relaxed">Measure performance, improve and scale.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="hairline wrap">
+
+<!-- ============================= BUSINESS OUTCOMES ============================= -->
+<section class="section reveal">
+  <div class="wrap">
+    <h2 class="font-heading font-bold text-3xl sm:text-4xl text-offwhite max-w-xl">Technology Should Create Business Impact.</h2>
+    <div class="mt-14 flex flex-col lg:flex-row lg:items-center gap-2 lg:gap-0">
+      <div class="card px-6 py-5 text-center lg:flex-1"><p class="font-heading font-semibold text-offwhite">Better Decisions</p></div>
+      <i data-lucide="chevron-right" class="hidden lg:block w-5 h-5 text-gold mx-3 shrink-0"></i>
+      <i data-lucide="chevron-down" class="lg:hidden w-5 h-5 text-gold mx-auto"></i>
+      <div class="card px-6 py-5 text-center lg:flex-1"><p class="font-heading font-semibold text-offwhite">Better Processes</p></div>
+      <i data-lucide="chevron-right" class="hidden lg:block w-5 h-5 text-gold mx-3 shrink-0"></i>
+      <i data-lucide="chevron-down" class="lg:hidden w-5 h-5 text-gold mx-auto"></i>
+      <div class="card px-6 py-5 text-center lg:flex-1"><p class="font-heading font-semibold text-offwhite">Better Customer Experience</p></div>
+      <i data-lucide="chevron-right" class="hidden lg:block w-5 h-5 text-gold mx-3 shrink-0"></i>
+      <i data-lucide="chevron-down" class="lg:hidden w-5 h-5 text-gold mx-auto"></i>
+      <div class="card px-6 py-5 text-center lg:flex-1"><p class="font-heading font-semibold text-offwhite">Better Efficiency</p></div>
+      <i data-lucide="chevron-right" class="hidden lg:block w-5 h-5 text-gold mx-3 shrink-0"></i>
+      <i data-lucide="chevron-down" class="lg:hidden w-5 h-5 text-gold mx-auto"></i>
+      <div class="px-6 py-5 text-center lg:flex-1 border border-gold rounded-[6px]"><p class="font-heading font-semibold text-goldlight">Business Growth</p></div>
+    </div>
+  </div>
+</section>
+
+<hr class="hairline wrap">
+
+<!-- ============================= WHY US ============================= -->
+<section class="section reveal">
+  <div class="wrap grid lg:grid-cols-[0.8fr_1.2fr] gap-12">
+    <div>
+      <h2 class="font-heading font-bold text-3xl sm:text-4xl text-offwhite">Why Businesses Choose Technology, Not Just Tools.</h2>
+      <p class="mt-5 text-gray2 leading-relaxed max-w-sm">Six principles that shape how we approach every engagement, regardless of which service is involved.</p>
+    </div>
+
+    <div class="divide-y divide-border2 border-t border-b border-border2">
+      <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-8 py-6">
+        <i data-lucide="target" class="w-5 h-5 text-gold shrink-0 mt-0.5"></i>
+        <h3 class="font-heading font-semibold text-base text-offwhite sm:w-52 shrink-0">Business-first Thinking</h3>
+        <p class="text-sm text-gray2 leading-relaxed">We start with the business problem, not the technology.</p>
+      </div>
+      <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-8 py-6">
+        <i data-lucide="line-chart" class="w-5 h-5 text-gold shrink-0 mt-0.5"></i>
+        <h3 class="font-heading font-semibold text-base text-offwhite sm:w-52 shrink-0">Data-driven Decisions</h3>
+        <p class="text-sm text-gray2 leading-relaxed">We turn data into useful management insights.</p>
+      </div>
+      <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-8 py-6">
+        <i data-lucide="puzzle" class="w-5 h-5 text-gold shrink-0 mt-0.5"></i>
+        <h3 class="font-heading font-semibold text-base text-offwhite sm:w-52 shrink-0">Custom Solutions</h3>
+        <p class="text-sm text-gray2 leading-relaxed">We build around the actual requirement instead of forcing a generic solution.</p>
+      </div>
+      <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-8 py-6">
+        <i data-lucide="layers" class="w-5 h-5 text-gold shrink-0 mt-0.5"></i>
+        <h3 class="font-heading font-semibold text-base text-offwhite sm:w-52 shrink-0">Scalable Technology</h3>
+        <p class="text-sm text-gray2 leading-relaxed">Solutions should be able to grow with the business.</p>
+      </div>
+      <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-8 py-6">
+        <i data-lucide="workflow" class="w-5 h-5 text-gold shrink-0 mt-0.5"></i>
+        <h3 class="font-heading font-semibold text-base text-offwhite sm:w-52 shrink-0">Practical Automation</h3>
+        <p class="text-sm text-gray2 leading-relaxed">Automate repetitive work where it creates real value.</p>
+      </div>
+      <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-8 py-6">
+        <i data-lucide="handshake" class="w-5 h-5 text-gold shrink-0 mt-0.5"></i>
+        <h3 class="font-heading font-semibold text-base text-offwhite sm:w-52 shrink-0">Long-term Partnership</h3>
+        <p class="text-sm text-gray2 leading-relaxed">Technology should evolve with the business.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="hairline wrap">
+
+<!-- ============================= SOLUTIONS BY NEED ============================= -->
+<section class="section reveal">
+  <div class="wrap">
+    <h2 class="font-heading font-bold text-3xl sm:text-4xl text-offwhite max-w-xl">What Do You Need?</h2>
+    <p class="mt-5 text-gray2 max-w-lg leading-relaxed">Tell us the problem — we'll point you to the right combination of technology.</p>
+
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <a href="solutions.html#business-intelligence" class="card p-7 block">
+        <p class="text-offwhite font-medium leading-snug">"I need better business visibility"</p>
+        <p class="text-sm text-goldlight mt-3">Power BI + Data Analytics</p>
+      </a>
+      <a href="solutions.html#data-mis" class="card p-7 block">
+        <p class="text-offwhite font-medium leading-snug">"I need to automate reporting"</p>
+        <p class="text-sm text-goldlight mt-3">MIS + Power BI + Automation</p>
+      </a>
+      <a href="solutions.html#custom-software" class="card p-7 block">
+        <p class="text-offwhite font-medium leading-snug">"I need custom software"</p>
+        <p class="text-sm text-goldlight mt-3">Software Development</p>
+      </a>
+      <a href="solutions.html#digital-presence" class="card p-7 block">
+        <p class="text-offwhite font-medium leading-snug">"I need a stronger digital presence"</p>
+        <p class="text-sm text-goldlight mt-3">Website Development</p>
+      </a>
+      <a href="solutions.html#ai-automation" class="card p-7 block">
+        <p class="text-offwhite font-medium leading-snug">"I want to automate repetitive work"</p>
+        <p class="text-sm text-goldlight mt-3">AI + Automation</p>
+      </a>
+      <a href="solutions.html#growth" class="card p-7 block">
+        <p class="text-offwhite font-medium leading-snug">"I need more online enquiries"</p>
+        <p class="text-sm text-goldlight mt-3">Digital Marketing + Lead Generation</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<hr class="hairline wrap">
+
+<!-- ============================= PORTFOLIO PREVIEW ============================= -->
+<section class="section reveal">
+  <div class="wrap">
+    <div class="flex items-end justify-between flex-wrap gap-4">
+      <h2 class="font-heading font-bold text-3xl sm:text-4xl text-offwhite max-w-xl">Technology in Action.</h2>
+      <a href="portfolio.html" class="btn-text">View Portfolio <i data-lucide="arrow-right"></i></a>
+    </div>
+
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="card p-7">
+        <p class="text-xs tracking-[0.12em] text-gold font-semibold">BUSINESS INTELLIGENCE</p>
+        <h3 class="font-heading font-semibold text-lg text-offwhite mt-3">Management Dashboard &amp; Decision Intelligence</h3>
+        <p class="text-sm text-gray2 mt-3 leading-relaxed">A Power BI dashboard consolidating scattered reports into one management view.</p>
+      </div>
+      <div class="card p-7">
+        <p class="text-xs tracking-[0.12em] text-gold font-semibold">DATA ANALYTICS</p>
+        <h3 class="font-heading font-semibold text-lg text-offwhite mt-3">Sales &amp; Performance Analytics</h3>
+        <p class="text-sm text-gray2 mt-3 leading-relaxed">Automated sales reporting replacing manual spreadsheet reconciliation.</p>
+      </div>
+      <div class="card p-7">
+        <p class="text-xs tracking-[0.12em] text-gold font-semibold">EDUCATION INTELLIGENCE</p>
+        <h3 class="font-heading font-semibold text-lg text-offwhite mt-3">Admission &amp; Management Intelligence</h3>
+        <p class="text-sm text-gray2 mt-3 leading-relaxed">A reporting system giving leadership visibility into admissions activity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= FINAL CTA ============================= -->
+<section class="reveal">
+  <div class="wrap pb-24">
+    <div class="border border-border2 rounded-md px-8 py-16 sm:px-16 sm:py-20 text-center relative overflow-hidden">
+      <div class="absolute inset-0 data-grid opacity-60"></div>
+      <div class="relative">
+        <h2 class="font-heading font-bold text-3xl sm:text-[42px] text-offwhite">Have a Business Challenge?</h2>
+        <p class="mt-4 text-gray2 max-w-md mx-auto">Let's find the technology behind the solution.</p>
+        <div class="mt-9 flex flex-wrap items-center justify-center gap-4">
+          <a href="contact.html" class="btn btn-gold">Start a Conversation</a>
+          <a href="services.html" class="btn btn-outline">Explore Our Services</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="border-t border-border2 pt-16 pb-8">
+  <div class="wrap grid grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+    <div class="col-span-2 lg:col-span-1">
+      <a href="index.html" class="inline-block mb-5" aria-label="THE INSIGHT TECH — home">
+        <img src="assets/logo-lockup.jpg" alt="THE INSIGHT TECH — Where Technology Meets Business Growth" style="width:168px;height:auto;">
+      </a>
+      <p class="text-sm text-gray2 leading-relaxed max-w-[220px]">Where Technology Meets Business Growth.</p>
+      <div class="flex items-center gap-3 mt-6">
+        <a href="https://instagram.com/theinsighttech" target="_blank" rel="noopener" aria-label="Instagram" class="w-9 h-9 flex items-center justify-center border border-border2 rounded-full text-gray2 hover:text-gold hover:border-gold transition-colors">
+          <i data-lucide="instagram" class="w-4 h-4"></i>
+        </a>
+        <a href="https://linkedin.com/company/theinsighttech" target="_blank" rel="noopener" aria-label="LinkedIn" class="w-9 h-9 flex items-center justify-center border border-border2 rounded-full text-gray2 hover:text-gold hover:border-gold transition-colors">
+          <i data-lucide="linkedin" class="w-4 h-4"></i>
+        </a>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="font-heading font-semibold text-sm text-offwhite mb-5">Quick Links</h3>
+      <ul class="space-y-3 text-sm text-gray2">
+        <li><a href="index.html" class="hover:text-gold transition-colors">Home</a></li>
+        <li><a href="about.html" class="hover:text-gold transition-colors">About</a></li>
+        <li><a href="services.html" class="hover:text-gold transition-colors">Services</a></li>
+        <li><a href="solutions.html" class="hover:text-gold transition-colors">Solutions</a></li>
+        <li><a href="industries.html" class="hover:text-gold transition-colors">Industries</a></li>
+        <li><a href="portfolio.html" class="hover:text-gold transition-colors">Portfolio</a></li>
+        <li><a href="contact.html" class="hover:text-gold transition-colors">Contact</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="font-heading font-semibold text-sm text-offwhite mb-5">Services</h3>
+      <ul class="space-y-3 text-sm text-gray2">
+        <li><a href="services.html#power-bi" class="hover:text-gold transition-colors">Power BI &amp; BI</a></li>
+        <li><a href="services.html#software" class="hover:text-gold transition-colors">Software Development</a></li>
+        <li><a href="services.html#websites" class="hover:text-gold transition-colors">Website Development</a></li>
+        <li><a href="services.html#data-analytics" class="hover:text-gold transition-colors">Data Analytics &amp; MIS</a></li>
+        <li><a href="services.html#ai-automation" class="hover:text-gold transition-colors">AI &amp; Automation</a></li>
+        <li><a href="services.html#digital-marketing" class="hover:text-gold transition-colors">Digital Growth</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="font-heading font-semibold text-sm text-offwhite mb-5">Contact</h3>
+      <ul class="space-y-3 text-sm text-gray2">
+        <li class="flex items-start gap-2"><i data-lucide="mail" class="w-4 h-4 mt-0.5 text-gold shrink-0"></i><a href="mailto:hello@theinsighttech.com" class="hover:text-gold transition-colors break-all">hello@theinsighttech.com</a></li>
+        <li class="flex items-start gap-2"><i data-lucide="phone" class="w-4 h-4 mt-0.5 text-gold shrink-0"></i><a href="tel:+910000000000" class="hover:text-gold transition-colors">+91 00000 00000</a></li>
+        <li class="flex items-start gap-2"><i data-lucide="message-circle" class="w-4 h-4 mt-0.5 text-gold shrink-0"></i><a href="https://wa.me/910000000000" target="_blank" rel="noopener" class="hover:text-gold transition-colors">WhatsApp</a></li>
+        <li class="flex items-start gap-2"><i data-lucide="map-pin" class="w-4 h-4 mt-0.5 text-gold shrink-0"></i><span>India</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap mt-14 pt-6 border-t border-border2 flex flex-col sm:flex-row justify-between items-center gap-3">
+    <p class="text-xs text-gray2">&copy; <span data-year></span> THE INSIGHT TECH. All Rights Reserved.</p>
+    <p class="text-xs text-gray2">Where Technology Meets Business Growth</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/910000000000" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"
+   class="fixed bottom-6 right-6 z-[150] w-14 h-14 rounded-full bg-gold text-[#0a0a0a] flex items-center justify-center shadow-[0_8px_24px_rgba(201,164,76,0.35)] hover:bg-goldlight transition-colors">
+  <i data-lucide="message-circle" class="w-6 h-6"></i>
+</a>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
